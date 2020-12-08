@@ -167,11 +167,14 @@ p{
   }
 
   .title-image {
-    position: static;
+    position: inherit;
     transform: rotate(0);
-    text-align: center;
+    margin-left: auto;
     width: 60%;
-    margin-left: 4.5rem;
     margin-top: 2rem;
+  }
+
+  .row{
+    text-align: center;
   }
 }
